@@ -18,6 +18,6 @@ As a distributed system, Kafka runs on a cluster of brokers, each responsible fo
 - Topic Configuration and Metadata Management
     - Zookeeper stores metadata about Kafka topics, including partition assignments, replica locations, and configuration settings.
     - This centralised storage allows all brokers and clients to access consistent information about the cluster's state.
-- Ledaer Election for Partitions
+- Leader Election for Partitions
     - Each partition in a Kafka topic has a leader broker responsible for handling read and write requests.
     - Zookeeper helps elect the leader for each partition. If a leader fails, Zookeeper triggers the election of a new leader form the available replicas.
