@@ -1,3 +1,4 @@
 # db
 
-- [Kafka](./kafka.md)
+- [Kafka Overview](./kafka.md)
+- [Zookeeper](./zookeeper.md)
