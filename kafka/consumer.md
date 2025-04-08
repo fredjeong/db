@@ -1,4 +1,4 @@
-# Navigating the Depths of the Kafka Consumer: Retrieving Streamed Data
+# Kafka Consumer
 
 The Kafka Consumer plays a pivotal role in the Apache Kafka ecosystem, responsible for retrieving and processing data streams published to Kafka topics. This article delves into the intricacies of the Kafka Consumer, elucidating its message receiving process, configuration parameters, and core functionalities.
 
